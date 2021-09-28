@@ -10,6 +10,7 @@ Make sure to learn what the starter code does!!
 /*STARTER CODE - DO NOT CHANGE*/
 main{
   margin-bottom: 100px;
+  
 }
 
 caption{
@@ -25,7 +26,7 @@ caption{
 /*END STARTER CODE*/
 
 body{
-  color: #000000;
+  color: #000000
   font-size: 16px;
   margin: 1.2em;
   background-size: cover ;
@@ -35,7 +36,7 @@ body{
 }
 
 h1{
-  color: #c12258;
+  color: #000000;
   font-size: 2em;
 
   /*Req 2*/
