@@ -35,14 +35,11 @@ body{
   background-image: url(../images/pigeon-background.JPEG);
   background-color: #DDDDDD;
   background-repeat: no-repeat;
-  overflow-y: hidden;
-  overflow-y: hidden;
 
   /*Req 1*/
 }
 
 h1{
-  color: #000000;
   font-size: 32px;
   text-align: center;
   line-height: 2;
@@ -78,7 +75,8 @@ background-color: #D1D1D1;
 
 
 tbody tr:hover {
-  background-color: rgb(126, 8, 37); opacity: 0.25;
+  background-color: rgb(126, 8, 37, 0.25);
+  
 }
 
 .colhead{
@@ -126,11 +124,9 @@ tbody tr:last-child th:first-child{
   border-bottom-left-radius: 50px;
 }
 
-tbody tr:last-child th:last-child {
+tbody tr:last-child th:last-child{
   border-bottom-right-radius: 50px;
 }
-
-
 
 footer{
   min-height: 75px;
@@ -142,5 +138,5 @@ footer{
   bottom: 0vh;
   padding: 0px;
   margin: 0vh;
-  overflow-x: hidden;
+
 }
