@@ -55,7 +55,7 @@ p{
 
 a{
  font-size: 16px;
- color: #B21F50;
+ color: #7e0825;
  text-decoration-style: wavy;
 }
 
@@ -67,11 +67,19 @@ outline: 3px dashed #417243;
 
 
 td{
- border-top: 2px solid #000000;
- padding: 10px;
+  text-align: center;
+  border-top: 2px solid #000000;
+  padding: 10px;
+}
+
+tr:nth-child(2n+2) {
+background-color: #D1D1D1;
 }
 
 
+tr:hover {
+  background-color: rgb(126, 8, 37); opacity: 0.25;
+}
 
 .colhead{
   color: #FFFFFF;
