@@ -35,6 +35,7 @@ body{
   background-image: url(../images/pigeon-background.JPEG);
   background-color: #DDDDDD;
   background-repeat: no-repeat;
+  
 
   /*Req 1*/
 }
@@ -138,5 +139,5 @@ footer{
   bottom: 0vh;
   padding: 0px;
   margin: 0vh;
-
+  
 }
