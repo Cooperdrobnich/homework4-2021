@@ -77,7 +77,7 @@ background-color: #D1D1D1;
 }
 
 
-tr:hover {
+tbody tr:hover {
   background-color: rgb(126, 8, 37); opacity: 0.25;
 }
 
