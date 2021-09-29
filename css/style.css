@@ -33,7 +33,7 @@ body{
   background-size: cover ;
   background-position: center;
   background-image: url(../images/pigeon-background.JPEG);
-  background-color: #DDDDDD;
+  background-color: #dddddd;
   background-repeat: no-repeat;
   
 
@@ -55,13 +55,15 @@ p{
 
 a{
  font-size: 16px;
- color: #B92751;
- 
+ color: #B21F50;
+ text-decoration-style: wavy;
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-
+*:focus{
+outline: 3px dashed #417243;
+}
 
 
 td{
@@ -71,7 +73,10 @@ td{
 
 .colhead{
   color: #FFFFFF;
-
+  min-width: 125px;
+  padding: 10px;
+  text-size-adjust: uppercase;
+  background-color: #7e0825;
 }
 
 .rowhead{
@@ -80,7 +85,11 @@ td{
 
 
 table{
+    margin-left: auto;
+    margin-right: auto;
     border: 5px solid #000000;
+    border-radius: 50px;
+
 }
 
 /* I gave you the selector, but not the property-value pair. 
@@ -92,8 +101,12 @@ thead tr:first-child th:first-child{}
 
 
 footer{
+  min-height: 75px;
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  clear: both;
+  position: absolute;
+  bottom: 0;
 }
